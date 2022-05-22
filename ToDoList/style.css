@@ -1,0 +1,46 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family: 'Great Vibes', cursive;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+main{
+  padding: 20px;
+}
+.task{
+  display: flex;
+}
+header{
+  color: #FFFFFF;
+  background-color:#6FDFDF;
+  padding: 20px;
+}
+header>form>input{
+  border-radius: 5px;
+  border: none;
+  padding:10px;
+}
+h2{
+  font: grey;
+}
+.actions>button, .content>input{
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin:5px 5px;
+}
+.actions>button{
+  background-color: #E8F9FD;
+  font: grey;
+}
+.task{
+  font: #FFFFFF;
+  margin:10px 0;
+  border-bottom: 1px grey solid;
+}
